@@ -2,11 +2,12 @@ import { ChevronDown, CircleUserRound } from 'lucide-react'
 import styles from '../styles/header.module.scss'
 import Container from './container'
 import Link from 'next/link'
+import Menu from './menu'
 
 export default function Header() {
   return (
     <header className={styles.header}>
-      <Container className="container headerContainer">
+      <Container className={styles.headerTopContainer}>
         <div className={styles.headerLeft}>
           <img src="/logo.svg" alt="" />
           <div className={styles.headerLocation}>
@@ -28,10 +29,16 @@ export default function Header() {
         </div>
       </Container>
       <div className={styles.headerMiddle}>
-        <Container className="container">
-
+        <Container className={styles.headerMiddleContainer}>
+          <div className={styles.home}>
+            <span>Для дома <ChevronDown /></span>
+          </div>
+          <div className={styles.fitness}>
+            <span>Для фитнес клуба <ChevronDown /></span>
+          </div>
         </Container>
       </div>
+      <Menu />
     </header>
   )
 }
