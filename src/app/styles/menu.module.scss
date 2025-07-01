@@ -1,6 +1,7 @@
 .menuContainer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px 15px;
   .menuLeft {
     display: flex;
@@ -36,6 +37,33 @@
         svg {
           color: #858FA4;
         }
+      }
+    }
+  }
+  .menuMiddle {
+    nav {
+      ul {
+        display: flex;
+        li {
+          list-style-type: none;
+          a {
+            font-family: var(--font-inter-regular);
+            font-size: 14px;
+            color: #fff;
+            padding: 20px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  .menuRight {
+    display: flex;
+    .menuBtn {
+      padding: 10px 20px;
+      cursor: pointer;
+      svg {
+        color: #fff;
       }
     }
   }

@@ -1,0 +1,128 @@
+.sectionHome {
+  background-color: rgba(133 143 164 / 0.2);
+  padding: 110px 0;
+  h2 {
+    font-family: var(--font-inter-bold);
+    font-size: 30px;
+    padding: 0 0 30px 0;
+  }
+  button {
+    color: #F53B49;
+    border: 1px solid #F53B49;
+    border-radius: 3px;
+    background: rgba(133 143 164 / 0);
+    font-family: var(--font-inter-bold);
+    font-size: 14px;
+    padding: 12px 20px;
+    cursor: pointer;
+  }
+  .gridContainer {
+    display: grid;
+    grid-template-areas: "A B C D"
+                         "A B E F"
+                         "G H I J";
+    grid-gap: 30px;             
+    margin: 0 0 30px 0;        
+    #gridA {
+      grid-area: A;
+      background: #1A1A25 url('/LandingHome/landinghome1.svg');
+      width: 330px;
+      height: 430px;
+      background-size: contain;
+    }
+    #gridB {
+      grid-area: B;
+      background: #C2C4CE url('/LandingHome/landinghome2.svg');
+      width: 330px;
+      height: 430px;
+      background-size: contain;
+    }
+    #gridC {
+      grid-area: C;
+      background: #F0F1F7 url('/LandingHome/landinghome3.svg');
+      width: 330px;
+      height: 200px;
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: contain;
+    }
+    #gridD {
+      grid-area: D;
+      background: #F0F1F7 url('/LandingHome/landinghome4.svg');
+      width: 330px;
+      height: 200px;
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: contain;
+    }
+    #gridE {
+      grid-area: E;
+      background: #F0F1F7 url('/LandingHome/landinghome5.svg');
+      width: 330px;
+      height: 200px;
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: contain;
+    }
+    #gridF {
+      grid-area: F;
+      background: #F0F1F7 url('/LandingHome/landinghome6.svg');
+      width: 330px;
+      height: 200px;
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: contain;
+    }
+    #gridG {
+      grid-area: G;
+      background: #F0F1F7 url('/LandingHome/landinghome7.svg');
+      width: 330px;
+      height: 200px;
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: contain;
+    }
+    #gridH {
+      grid-area: H;
+      background: #F0F1F7 url('/LandingHome/landinghome8.svg');
+      width: 330px;
+      height: 200px;
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: contain;
+    }
+    #gridI {
+      grid-area: I;
+      background: #F0F1F7 url('/LandingHome/landinghome9.svg');
+      width: 330px;
+      height: 200px;
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: contain;
+    }
+    #gridJ {
+      grid-area: J;
+      background: #F0F1F7 url('/LandingHome/landinghome10.svg');
+      width: 330px;
+      height: 200px;
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: contain;
+    }
+    .gridTitle {
+      display: block;
+      width: 150px;
+      color: #000;
+      font-family: var(--font-inter-extrabold);
+      font-size: 20px;
+      font-weight: 800;
+    }
+    .grid {
+      padding: 30px;
+      border-radius: 5px;
+    }
+    #main {
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.sectionClub {
+  background-color: rgba(133 143 164 / 0.2);
+  padding: 0 0 110px 0;
+  .containerClub {
+    h2 {
+      font-family: var(--font-inter-bold);
+      font-size: 30px;
+      padding: 0 0 30px 0;
+    }
+    .gridContainer {
+      display: grid;
+      grid-template-areas: "A A B C"
+                           "D E F G";
+      #gridA {
+        grid-area: A;
+        background-image: radial-gradient(circle at 53%, #858FA4, #565F73, #1A1A25), url('/landingClub/landingclub1.svg');
+        width: 690px;
+        height: 280px;
+        #main {
+          color: #fff;
+        }
+      }
+      #gridB {
+        grid-area: B;
+      }
+      #gridC {
+        grid-area: C;
+      }
+      #gridD {
+        grid-area: D;
+      }
+      #gridE {
+        grid-area: E;
+      }
+      #gridF {
+        grid-area: F;
+      }
+      #gridG {
+        grid-area: G;
+      }
+      .grid {
+        border-radius: 5px;
+        padding: 30px;
+      }
+      .gridTitle {
+        display: block;
+        font-family: var(--font-inter-bold);
+        font-size: 20px;
+        width: 150px;
+      }
+    }
+  }
+}
