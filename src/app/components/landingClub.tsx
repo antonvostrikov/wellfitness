@@ -1,4 +1,4 @@
-import styles from '../styles/landingClub.module.scss'
+import styles from '@/app/styles/landingClub.module.scss'
 import Container from './container'
 
 export default function LandingClub() {

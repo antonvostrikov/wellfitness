@@ -1,0 +1,25 @@
+.sectionIdeas {
+  min-height: 768px;
+  background: #1A1A25; 
+  padding: 120px 0 0 0;
+  h2 {
+    font-size: 30px;
+    font-family: var(--font-inter-bold);
+    color: #fff;
+    margin: 0 0 30px 0;
+  }
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 30px;
+    .idea {
+      min-height: 400px;
+    }
+    #ideaLeft {
+      background: #F53B49 url('/landingIdeas/idea1.png');
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: contain;
+    }
+  }
+}

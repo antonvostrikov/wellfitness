@@ -1,4 +1,4 @@
-import styles from '../styles/landingHome.module.scss'
+import styles from '@/app/styles/landingHome.module.scss'
 import Container from './container'
 import Image from 'next/image'
 

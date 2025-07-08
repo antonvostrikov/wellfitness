@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Header from "./components/header";
 import LandingHome from "./components/landingHome";
 import LandingClub from "./components/landingClub";
+import LandingIdeas from "./components/landingIdeas";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <LandingHome />
       <LandingClub />
+      <LandingIdeas />
     </div>
   );
 }
