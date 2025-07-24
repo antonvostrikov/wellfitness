@@ -20,6 +20,79 @@
       background-repeat: no-repeat;
       background-position: right;
       background-size: contain;
+      padding: 30px;
+      border-radius: 6px;
+      min-height: 400px;
+      h3 {
+        color: #fff;
+        font-family: var(--font-inter-bold);
+        font-size: 28px;
+        width: 260px;
+        line-height: 30px;
+        margin: 0 0 10px 0;
+        b {
+          font-size: 30px;
+          font-family: var(--font-inter-extrabold);
+        }
+      }
+      .timer {
+        display: flex;
+        align-items: center;
+        margin: 0 0 60px 0;
+        p {
+          font-family: var(--font-inter-regular);
+          font-size: 18px;
+          line-height: 23px;
+          b {
+            font-family: var(--font-inter-bold);
+          }
+        }
+      }
+    }
+    #ideaMiddle {
+      background: #DBDDE5 url('/landingIdeas/idea2.png');
+      background-repeat: no-repeat;
+      background-position: bottom;
+      min-height: 400px;
+      border-radius: 6px;
+      padding: 30px;
+      p {
+        font-family: var(--font-inter-extrabold);
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 800;
+        b {
+          color: #F53B49;
+          font-size: 36px;
+        }
+      }
+    }
+    #ideaRight {
+      background: #E9EAEF url('/landingIdeas/idea3.png');
+      background-repeat: no-repeat;
+      min-height: 400px;
+      border-radius: 6px;
+      padding: 30px;
+      p {
+        font-family: var(--font-inter-extrabold);
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 25px;
+        margin: 0 0 15px 0;
+        b {
+          color: #F53B49;
+        }
+      }
+    }
+    button {
+      font-family: var(--font-inter-bold);
+      font-size: 14px;
+      border-radius: 4px;
+      padding: 12px 20px;
+      width: 165px;
+      border: 1px solid #fff;
+      color: #fff;
+      cursor: pointer;
     }
   }
 }
